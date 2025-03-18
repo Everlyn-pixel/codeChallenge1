@@ -3,3 +3,18 @@ body {
     text-align: center;
     background-color: #f8f8f8;
 }
+
+.navbar {
+    background-color: #242424;
+    overflow: hidden;
+    color: white;
+    width: auto;
+}
+
+.navbar > h1 {
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
