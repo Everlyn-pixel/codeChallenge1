@@ -1,20 +1,58 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: #f8f8f8;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #f8f8f8;
 }
 
 .navbar {
-    background-color: #242424;
-    overflow: hidden;
-    color: white;
-    width: auto;
+  background-color: #242424;
+  overflow: hidden;
+  color: white;
+  width: auto;
 }
 
 .navbar > h1 {
-    margin: 0;
-    padding: 0px;
-    text-align: center;
-    justify-content: center;
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+  justify-content: center;
 }
 
+#ramen-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#ramen-menu img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-top: 21px;
+  border-radius: 10px;
+}
+
+#ramen-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group > h3 {
+  background-color: #242424;
+  color: white;
+  box-sizing: border-box;
+  gap: 2.5px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
